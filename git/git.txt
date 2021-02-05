@@ -1,0 +1,10 @@
+git init
+git status
+git add .
+git commit -m "first commit"
+git remote add origin (git주소)
+[ 위 명령어 삭제  git remote rm origin ]
+git push origin master
+
+한글깨짐
+git config --global core.quotepath false
